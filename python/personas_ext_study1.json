@@ -1,0 +1,117 @@
+{
+  "_note": "Persona definitions for GratiFlow ext_study1 synthetic user experiments. Extended from v2 (5 personas) to 10 personas per extended_study_design_v2.md §4.2. All users are SYNTHETIC (LLM-generated). Parameters fixed before experiment execution. Version: ext_study1.",
+  "_version": "ext_study1",
+  "_base": "personas_v2.json (P1-P5 inherited with minor label expansion; P6-P10 are new)",
+  "personas": [
+    {
+      "id": "P1",
+      "label": "初心者・着実成長",
+      "latent_skill_0": 0.05,
+      "alpha": 0.08,
+      "alpha_passive": 0.02,
+      "beta": 0.01,
+      "p_attempt_base": 0.15,
+      "neg_tendency": 1.5,
+      "description": "A university student who is a complete beginner in positive reframing. Learns steadily but not rapidly. Standard learner archetype. Inherited from v2."
+    },
+    {
+      "id": "P2",
+      "label": "初心者・停滞型",
+      "latent_skill_0": 0.05,
+      "alpha": 0.04,
+      "alpha_passive": 0.01,
+      "beta": 0.02,
+      "p_attempt_base": 0.10,
+      "neg_tendency": 2.0,
+      "description": "A university student with low learning capacity. Struggles with reframing, and failure has a larger penalty. Prone to stagnation. Inherited from v2."
+    },
+    {
+      "id": "P3",
+      "label": "中級・安定成長",
+      "latent_skill_0": 0.15,
+      "alpha": 0.06,
+      "alpha_passive": 0.02,
+      "beta": 0.01,
+      "p_attempt_base": 0.25,
+      "neg_tendency": 1.0,
+      "description": "A university student with some prior skill. Grows steadily. Inherited from v2."
+    },
+    {
+      "id": "P4",
+      "label": "初心者・高応答型",
+      "latent_skill_0": 0.05,
+      "alpha": 0.10,
+      "alpha_passive": 0.03,
+      "beta": 0.01,
+      "p_attempt_base": 0.20,
+      "neg_tendency": 1.5,
+      "description": "A university student who responds strongly to scaffolding. When they attempt reframing and succeed, they grow rapidly (high alpha). Inherited from v2."
+    },
+    {
+      "id": "P5",
+      "label": "中級・慎重型",
+      "latent_skill_0": 0.12,
+      "alpha": 0.05,
+      "alpha_passive": 0.015,
+      "beta": 0.015,
+      "p_attempt_base": 0.18,
+      "neg_tendency": 1.5,
+      "description": "A university student with moderate prior skill but a cautious disposition. Transitions to self-directed reframing slowly. Inherited from v2."
+    },
+    {
+      "id": "P6",
+      "label": "上級・高自律型",
+      "latent_skill_0": 0.30,
+      "alpha": 0.07,
+      "alpha_passive": 0.015,
+      "beta": 0.01,
+      "p_attempt_base": 0.35,
+      "neg_tendency": 0.8,
+      "description": "A university student with higher initial skill who proactively attempts self-reframing. Represents the ceiling-range persona. New in ext_study1."
+    },
+    {
+      "id": "P7",
+      "label": "初心者・高ネガ傾向",
+      "latent_skill_0": 0.04,
+      "alpha": 0.07,
+      "alpha_passive": 0.02,
+      "beta": 0.015,
+      "p_attempt_base": 0.12,
+      "neg_tendency": 2.5,
+      "description": "A university student with very high negative event tendency and low initial skill. Represents the most challenging learner archetype. New in ext_study1."
+    },
+    {
+      "id": "P8",
+      "label": "中級・揺れ型",
+      "latent_skill_0": 0.10,
+      "alpha": 0.09,
+      "alpha_passive": 0.01,
+      "beta": 0.03,
+      "p_attempt_base": 0.22,
+      "neg_tendency": 1.8,
+      "description": "A university student whose performance is more variable: high alpha but also relatively high beta, leading to a less smooth learning curve. New in ext_study1."
+    },
+    {
+      "id": "P9",
+      "label": "初心者・受動観察型",
+      "latent_skill_0": 0.06,
+      "alpha": 0.06,
+      "alpha_passive": 0.04,
+      "beta": 0.01,
+      "p_attempt_base": 0.08,
+      "neg_tendency": 1.2,
+      "description": "A university student who tends to observe AI models passively (low p_attempt_base) but benefits more from passive observation (higher alpha_passive). New in ext_study1."
+    },
+    {
+      "id": "P10",
+      "label": "中級・急成長型",
+      "latent_skill_0": 0.08,
+      "alpha": 0.12,
+      "alpha_passive": 0.02,
+      "beta": 0.01,
+      "p_attempt_base": 0.28,
+      "neg_tendency": 1.0,
+      "description": "A university student with high learning rate (highest alpha) who rapidly internalizes reframing skill when given practice opportunities. New in ext_study1."
+    }
+  ]
+}

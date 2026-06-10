@@ -1,0 +1,61 @@
+{
+  "_note": "Persona definitions for GratiFlow v2 synthetic user experiments (sequential generation, latent-skill-driven). All users are SYNTHETIC (LLM-generated). Parameters fixed before experiment execution per evaluation_protocol_v2.md Section 2.2 (the research team, 2026-06-04, PI-approved).",
+  "_version": "v2",
+  "personas": [
+    {
+      "id": "P1",
+      "label": "初心者・着実成長",
+      "latent_skill_0": 0.05,
+      "alpha": 0.08,
+      "alpha_passive": 0.02,
+      "beta": 0.01,
+      "p_attempt_base": 0.15,
+      "neg_tendency": 1.5,
+      "description": "A university student who is a complete beginner in positive reframing. Learns steadily but not rapidly. Standard learner archetype."
+    },
+    {
+      "id": "P2",
+      "label": "初心者・停滞型",
+      "latent_skill_0": 0.05,
+      "alpha": 0.04,
+      "alpha_passive": 0.01,
+      "beta": 0.02,
+      "p_attempt_base": 0.10,
+      "neg_tendency": 2.0,
+      "description": "A university student with low learning capacity. Struggles with reframing, and failure has a larger penalty. Prone to stagnation."
+    },
+    {
+      "id": "P3",
+      "label": "中級・安定成長",
+      "latent_skill_0": 0.15,
+      "alpha": 0.06,
+      "alpha_passive": 0.02,
+      "beta": 0.01,
+      "p_attempt_base": 0.25,
+      "neg_tendency": 1.0,
+      "description": "A university student with some prior skill. Grows steadily. initial_skill lowered from v1's 0.3 to 0.15 to prevent ceiling effect. neg_tendency=1.0 maintained to ensure measurable SRR."
+    },
+    {
+      "id": "P4",
+      "label": "初心者・高応答型",
+      "latent_skill_0": 0.05,
+      "alpha": 0.10,
+      "alpha_passive": 0.03,
+      "beta": 0.01,
+      "p_attempt_base": 0.20,
+      "neg_tendency": 1.5,
+      "description": "A university student who responds strongly to scaffolding. When they attempt reframing and succeed, they grow rapidly (high alpha). High responsiveness to practice opportunities."
+    },
+    {
+      "id": "P5",
+      "label": "中級・慎重型",
+      "latent_skill_0": 0.12,
+      "alpha": 0.05,
+      "alpha_passive": 0.015,
+      "beta": 0.015,
+      "p_attempt_base": 0.18,
+      "neg_tendency": 1.5,
+      "description": "A university student with moderate prior skill but a cautious disposition. Transitions to self-directed reframing slowly. Gradual improvement trajectory."
+    }
+  ]
+}

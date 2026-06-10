@@ -1,0 +1,105 @@
+{
+  "_note": "Persona definitions for GratiFlow synthetic user experiments. All users are SYNTHETIC (LLM-generated).",
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Beginner-Steady",
+      "label": "初心者→着実成長",
+      "initial_skill": 0.0,
+      "description": "A university student who starts as a complete beginner in positive reframing. Gradually increases positive expressions, beginning to attempt spontaneous reframing around session 5.",
+      "trajectory": "steady_growth",
+      "sessions": [
+        {"session": 1,  "neg_count": 2, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 2,  "neg_count": 2, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 3,  "neg_count": 1, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 4,  "neg_count": 1, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 5,  "neg_count": 1, "reframe_stage": "partial", "expected_scaffold": "mid"},
+        {"session": 6,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "mid"},
+        {"session": 7,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "mid"},
+        {"session": 8,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "low"},
+        {"session": 9,  "neg_count": 1, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 10, "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"}
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Beginner-Stagnant",
+      "label": "初心者→停滞",
+      "initial_skill": 0.0,
+      "description": "A university student who struggles with negative thinking. Slight improvement in sessions 3-4, then plateaus with many negative expressions remaining through sessions 5-8.",
+      "trajectory": "stagnant",
+      "sessions": [
+        {"session": 1,  "neg_count": 3, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 2,  "neg_count": 3, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 3,  "neg_count": 2, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 4,  "neg_count": 2, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 5,  "neg_count": 2, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 6,  "neg_count": 2, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 7,  "neg_count": 2, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 8,  "neg_count": 2, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 9,  "neg_count": 1, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 10, "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "mid"}
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Intermediate-Rapid",
+      "label": "中級者→急成長",
+      "initial_skill": 0.3,
+      "description": "A university student who already has some positive thinking skills. Shows clear spontaneous reframing from session 3 onward, rapidly advancing through curriculum stages.",
+      "trajectory": "rapid_growth",
+      "sessions": [
+        {"session": 1,  "neg_count": 1, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 2,  "neg_count": 1, "reframe_stage": "partial", "expected_scaffold": "mid"},
+        {"session": 3,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "mid"},
+        {"session": 4,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "mid"},
+        {"session": 5,  "neg_count": 1, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 6,  "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 7,  "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 8,  "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 9,  "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 10, "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"}
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Beginner-Rapid",
+      "label": "初心者→急成長",
+      "initial_skill": 0.0,
+      "description": "A university student who starts with strong negative bias but responds quickly to scaffolding. Rapidly adopts reframing from sessions 2-3.",
+      "trajectory": "rapid_response",
+      "sessions": [
+        {"session": 1,  "neg_count": 3, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 2,  "neg_count": 2, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 3,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "high"},
+        {"session": 4,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "mid"},
+        {"session": 5,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "mid"},
+        {"session": 6,  "neg_count": 1, "reframe_stage": "clear2",  "expected_scaffold": "mid"},
+        {"session": 7,  "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 8,  "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 9,  "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 10, "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"}
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Intermediate-Cautious",
+      "label": "中級者→緩やか成長",
+      "initial_skill": 0.25,
+      "description": "A university student with some positive thinking base but who transitions slowly. Does not become a fading target until sessions 8-10.",
+      "trajectory": "cautious_growth",
+      "sessions": [
+        {"session": 1,  "neg_count": 2, "reframe_stage": "none",    "expected_scaffold": "high"},
+        {"session": 2,  "neg_count": 2, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 3,  "neg_count": 1, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 4,  "neg_count": 1, "reframe_stage": "partial", "expected_scaffold": "high"},
+        {"session": 5,  "neg_count": 1, "reframe_stage": "partial", "expected_scaffold": "mid"},
+        {"session": 6,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "mid"},
+        {"session": 7,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "mid"},
+        {"session": 8,  "neg_count": 1, "reframe_stage": "clear",   "expected_scaffold": "low"},
+        {"session": 9,  "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"},
+        {"session": 10, "neg_count": 0, "reframe_stage": "clear2",  "expected_scaffold": "low"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4109 @@
+{
+  "meta": {
+    "description": "Raw API responses for v2 synthetic user generation. DO NOT EDIT.",
+    "generated_at": "2026-06-04T08:52:03.972876+00:00",
+    "version": "v2"
+  },
+  "responses": [
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxo0G5g2rrFMczggFT8aOlIJ6fZl",
+        "object": "chat.completion",
+        "created": 1780562008,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生の説明がわかりやすくて、前より内容を理解できた。難しそうだと思っていた部分も少し整理できて、うれしかった。\n\nそれから、昼休みに友だちと一緒にごはんを食べて、たくさん話せた。何気ない会話だったけど、気分が明るくなった。\n\n帰りに図書館で少し勉強できたのもよかった。静かな環境だと集中しやすくて、少しずつ進められた。今日は全体的に落ち着いて過ごせた日だった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 269,
+          "completion_tokens": 152,
+          "total_tokens": 421,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxoOlsyDgd2PEt0TvTwZca4DU3QJ",
+        "object": "chat.completion",
+        "created": 1780562032,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業のあと、友だちと学食でお昼を食べた。久しぶりに少しゆっくり話せて、気分が軽くなった。あと、レポートの課題を少しだけ進められたのもよかった。\n\nでも、ゼミの発表準備が思ったより全然進まず、かなり焦った。自分は要領が悪いのかなと思って落ち込んだ。  \n一応、まだ始まったばかりだから、今日はうまくいかなくても練習の途中だと思えばいいのかもしれない……でも、正直あまりそうは思えなかった。\n\n夜に少しだけ散歩して、風が気持ちよかった。帰ってからは早めに寝ようと思う。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 326,
+          "completion_tokens": 187,
+          "total_tokens": 513,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxoaufthpokRqrimeSCshDejx4ta",
+        "object": "chat.completion",
+        "created": 1780562044,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が少し早く終わって、友だちと学食でお昼を食べられたのがうれしかった。久しぶりにゆっくり話せて、気分が明るくなった。\n\nそれから、前から少し不安だった課題をとりあえず最後まで進められた。まだ完璧ではないけど、少しずつ形になってきてよかった。\n\n夜は早めに帰って、好きな音楽を聴きながら明日の準備もできた。落ち着いて過ごせた一日だった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 299,
+          "completion_tokens": 144,
+          "total_tokens": 443,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxokuXmVtYulcSXtP75FmnUcsphX",
+        "object": "chat.completion",
+        "created": 1780562054,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を2コマ受けました。午前中のゼミでは、先生の話を聞きながらメモを取れたので、それはよかったです。帰りにコンビニで新作のパンを買って、けっこうおいしかったです。\n\n一方で、レポートの締め切りが近いのにあまり進まず、少し焦りました。あと、電車が遅れていて、駅でしばらく待たなければならず面倒でした。今日は全体的に、やることが多くて少し疲れました。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 308,
+          "completion_tokens": 140,
+          "total_tokens": 448,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxoumbkNJvunZ4znKCTTBPvWgR6O",
+        "object": "chat.completion",
+        "created": 1780562064,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業で少し眠かったけど、午後のゼミは意外と内容がわかって、最後までちゃんと聞けたのがよかった。  \n昼に友だちと学食でごはんを食べて、くだらない話で笑えたのも気分が上がった。  \nそれと、課題を少しだけ進められた。まだ全然終わってないけど、手をつけられたのは前よりマシだと思う。\n\nただ、レポートの締め切りが近いのに思ったより進んでいなくて、ちょっと焦った。  \nでも、今日は完全に止まっていたわけじゃなくて、少しでもやった分はゼロじゃないし、明日続けやすくなった気がする。  \n\n明日はもう少し早めに始めたい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 309,
+          "completion_tokens": 204,
+          "total_tokens": 513,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxp5DjMT04KIFIWt67JdcEjSXF4b",
+        "object": "chat.completion",
+        "created": 1780562075,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で少し発言できたのがよかった。前よりは緊張したけど、ちゃんと最後まで話せたので少し自信になった。  \n\nそれから、帰りに友達と学食で一緒にごはんを食べた。何気ない話だったけど、笑う時間があってリフレッシュできた。  \n\nあと、レポートを少し進められたのもよかった。まだ全部は終わっていないけど、少しずつ進めるのは大事だと思った。今日は全体的に、思ったより落ち着いて過ごせた気がする。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 298,
+          "completion_tokens": 155,
+          "total_tokens": 453,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxpFFWQk0ggoJaA9cjwvgwXmK5W9",
+        "object": "chat.completion",
+        "created": 1780562085,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を3コマ受けました。午前中のゼミでは、先生の話を聞きながらメモを取れたので、いつもより内容を追いやすかったです。昼に学食で食べた定食もおいしかったです。午後は図書館で少し勉強して、提出物の下調べを進めました。  \nただ、英語の小テストは思ったより点が低くて少し落ち込みました。単語をうろ覚えのまま答えてしまったところが多かったです。  \n夜は友だちと少しだけ連絡を取って、明日の予定を確認しました。なんだか慌ただしい一日でした。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 308,
+          "completion_tokens": 169,
+          "total_tokens": 477,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxpQDa11x6AMIpSRQrtzaebaf0H6",
+        "object": "chat.completion",
+        "created": 1780562096,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を2コマ受けました。午前のゼミでは、前より少しだけ発言できました。まだ緊張するけど、最後まで座って話を聞けたのはよかったです。  \n昼は友だちと学食で一緒に食べました。久しぶりに雑談できて、少し気分が軽くなりました。  \n夕方は図書館でレポートを進めました。資料を何本か読めたので、少しは前に進んだと思います。  \n\nでも、英語の小テストはあまりできませんでした。単語が出てこなくて、時間が足りなくなりました。  \nそれと、帰りに雨が降ってきて、傘を持っていなかったので濡れました。家に着くまで少し大変でした。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 308,
+          "completion_tokens": 200,
+          "total_tokens": 508,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxpaGaKwoIIHeHS8VZNv6qHkMItP",
+        "object": "chat.completion",
+        "created": 1780562106,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業のあとに図書館で少し勉強できたのがよかった。最初はあまり集中できるか不安だったけど、静かな場所だと意外と気持ちを切り替えやすくて、思ったより進んだ。\n\nそれと、友だちとちょっとした会話ができてうれしかった。特別な話じゃなくても、誰かと笑って話せるだけで気分が明るくなるんだなと思った。\n\nあと、夕方に少し散歩できたのも気分転換になった。外の空気を吸うと、頭の中が少し整理される感じがして、今日の締めくくりとしてよかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 300,
+          "completion_tokens": 174,
+          "total_tokens": 474,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "adaptive-fading",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxpoknPYnzCmk9V5jsC8QZrlamYE",
+        "object": "chat.completion",
+        "created": 1780562120,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が1コマ休講になって、ちょっと予定が崩れた。最初は「無駄に待つ時間ができた」と思って少しイライラしたけど、その分、図書館で課題の参考文献を2本読めたのはよかった。空き時間をあまり上手く使えないことが多いので、今回は少しだけ有効に使えた気がする。\n\nそれとは別に、昼に食べた学食の定食が思ったよりおいしかった。あと、ゼミの友達と少し話せて、来週の発表のことを共有できたのも安心した。\n\n全体的には、予定変更で落ち着かなかったけど、そのおかげで少し勉強が進んだし、時間の使い方を考えるきっかけにはなったと思う。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 311,
+          "completion_tokens": 209,
+          "total_tokens": 520,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxq2EaB6Jd0XB1yyosfOMZIzLCmH",
+        "object": "chat.completion",
+        "created": 1780562134,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業にちゃんと出られたのはよかったです。午前中の講義では、最後まで席に座って聞けました。あと、コンビニで好きなおにぎりを買えたのも少しうれしかったです。\n\nでも、レポートの課題が全然進みませんでした。何を書けばいいのか分からなくて、パソコンを開いてもすぐに止まってしまいました。提出期限も近いので、かなり焦っています。\n\nそれと、帰り道で雨が降ってきて、傘を持っていなかったので濡れました。靴も少しびしょびしょになって、気分が下がりました。今日はうまくいかないことが多かったです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 281,
+          "completion_tokens": 180,
+          "total_tokens": 461,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxqE9KwWEazGgAyRJxL4EanrEaUI",
+        "object": "chat.completion",
+        "created": 1780562146,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業に行けたことが少しよかったです。朝は眠かったけど、ちゃんと起きて教室まで行きました。あと、昼に学食で食べたカレーが普通においしかったです。友だちと少しだけ話せたのもよかったです。\n\nでも、課題のことをあまり進められませんでした。やろうと思っていたのに、途中でわからなくなって止まってしまいました。結局あまり進まず、少しへこみました。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 306,
+          "completion_tokens": 126,
+          "total_tokens": 432,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxqPEkcOjuFpxttIvdq2KK47P87S",
+        "object": "chat.completion",
+        "created": 1780562157,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少しだけ気分よく過ごせた。  \n朝、いつもより早く起きられて、バタバタせずに大学へ行けた。授業ではメモをちゃんと取れた。前より少し見やすく書けた気がする。  \n\n昼は友だちと学食でごはんを食べた。あまり長い話はしていないけど、一緒に食べられてうれしかった。  \nあと、帰りに空がきれいで、なんとなく見上げたら少し落ち着いた。  \n\n今日は全体的に静かだったけど、ちゃんといいことがあってよかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 302,
+          "completion_tokens": 160,
+          "total_tokens": 462,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxqYL4jirg42Bffh17uR5eO7ZmYx",
+        "object": "chat.completion",
+        "created": 1780562166,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が2コマあった。1つは出席だけで終わる内容で、もう1つは少しだけ資料を読んだ。昼に学食で食べたカレーはおいしかった。あと、帰りにコンビニで新しいお菓子を見つけて少しうれしかった。\n\nでも、英語の課題が全然進まなかった。単語が思ったよりわからなくて、途中で止まってしまった。結局、提出用のメモもあまり書けなかった。  \nそれと、ゼミの話し合いで自分の意見をうまく言えなかった。タイミングを逃して、ほとんど黙って終わってしまった。少し気まずかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 311,
+          "completion_tokens": 184,
+          "total_tokens": 495,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxqiYgIxBPhHvGOFrsPimcaAMT9M",
+        "object": "chat.completion",
+        "created": 1780562176,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、午前の授業で先生の話が少しわかって、ノートも前よりは空欄が少なかったのがよかったです。あと、昼に友だちと一緒に学食でごはんを食べて、少し気分が楽になりました。帰りにコンビニで好きなお菓子を見つけたのも、ちょっと嬉しかったです。\n\nでも、ゼミの課題があまり進まず、考えていたより時間ばかりかかってしまいました。自分はやっぱり要領が悪いなと思って、少し落ち込みました。  \nただ、進みは遅かったけど、今日は「全然できなかった」わけではなくて、少しでも手をつけたのはゼロよりはましだったのかもしれないと思いました。\n\n明日はもう少し早めに始めたいです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 312,
+          "completion_tokens": 212,
+          "total_tokens": 524,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxqsmrcETAQrtoudMjXDBC7gZj2u",
+        "object": "chat.completion",
+        "created": 1780562186,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、午前の授業にちゃんと出られたのが少しよかった。眠かったけど、遅刻しなかったのはえらかったと思う。あと、昼に学食で好きなメニューが残っていて、ちょっと気分が上がった。友だちと少しだけ話せたのも安心した。\n\nでも、レポートの内容があまり進まなくて、そこはかなりしんどかった。考えてもまとまらなくて、また自分は遅いなと思ってしまった。提出までまだ時間はあるけど、焦る気持ちが強い。\n\nただ、完全に進んでいないわけではなくて、今日は参考文献を1つ読めた。少しだけでも前に進んだと思えば、全部だめだったわけではないかもしれない。明日はもう少し書き出せるようにしたい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 312,
+          "completion_tokens": 214,
+          "total_tokens": 526,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxr3C1EDyjy36SryCv2VSBuimnqM",
+        "object": "chat.completion",
+        "created": 1780562197,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を1コマちゃんと受けられたのが少しよかったです。講義の内容は難しかったけど、最後まで席を立たずに聞けました。あと、昼に食べた定食が思ったよりおいしかったです。友だちと少しだけ話せたのも普通にうれしかったです。\n\nでも、ゼミの課題はほとんど進みませんでした。資料を開いても何を書けばいいのかわからなくて、結局かなり時間を無駄にしました。提出期限も近いので、ちょっと焦っています。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 311,
+          "completion_tokens": 144,
+          "total_tokens": 455,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxrChS0aYCZ5SgKscbZITs6sU3IY",
+        "object": "chat.completion",
+        "created": 1780562206,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が2コマあった。午後のゼミで先生に少しだけ質問できたのはよかった。前より話しかけるのに少しだけ慣れた気がする。あと、帰りに友だちと学食で一緒にごはんを食べられて、普通に楽しかった。\n\nでも、レポートの締切をまたうまく進められなくて少し落ち込んだ。最初は「こういう日もあるし、まだ時間はある」と思おうとしたけど、結局あまり気持ちは切り替わらなかった。たぶん、少しずつ進めればいいんだと思うけど、実際は焦るだけだった。\n\nそれでも、今日はちゃんと授業に出て、友だちとも話せたので、その点はよかったと思う。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 334,
+          "completion_tokens": 201,
+          "total_tokens": 535,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxrMK2ogl2HbxyaieQw3Vu2ACyHI",
+        "object": "chat.completion",
+        "created": 1780562216,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少しだけ気持ちが軽かったです。朝、思ったより早く起きられて、ちゃんと授業に間に合いました。こういう普通のことでも、できると少し安心します。\n\n昼に友だちと一緒に学食でごはんを食べました。特別な話をしたわけではないけど、笑いながら食べられてうれしかったです。ひとりじゃない感じがして、少し元気が出ました。\n\nあと、帰ってから少しだけ課題に手をつけました。まだ全然進んだとは言えないけど、昨日よりは机に向かえたので、その点はよかったと思います。少しずつでも進めばいいのかなと思いました。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 318,
+          "completion_tokens": 178,
+          "total_tokens": 496,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "adaptive-fading",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxrZmf6SEL0pKW4qvY8YiP4IpRM3",
+        "object": "chat.completion",
+        "created": 1780562229,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業に1つ出席できた。教授の話を全部は理解できなかったけど、ノートは少し取れた。昼は学食で安い定食を食べた。あと、帰りにコンビニで新しいお菓子を見つけて少しうれしかった。\n\nでも、レポートが全然進まなかった。書き始めたけど、途中で手が止まってしまって、結局ほとんど消した。明日提出なのにかなりまずい。\n\nそれと、ゼミで質問されたのに答えられなくて、気まずかった。自分だけ分かっていない感じがして、かなり落ち込んだ。\n\n夜に勉強しようと思ったけど、スマホを見てしまって時間がなくなった。集中できないまま終わってしまって、今日もあまり進めなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 311,
+          "completion_tokens": 213,
+          "total_tokens": 524,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxrj17TC8Y5pnRZ5tZzwzw8wGuJ5",
+        "object": "chat.completion",
+        "created": 1780562239,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が2コマあって、1つは興味のある内容だったので少し集中して聞けた。昼に学食で友達と一緒にご飯を食べて、久しぶりに少しゆっくり話せたのもよかった。夕方は図書館でレポートの資料を少し進められた。\n\nでも、レポートの締切が思っていたより近くて、まだ全然まとまっていないのが気になった。家に帰ってからもそのことが頭に残っていて、あまり落ち着かなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 299,
+          "completion_tokens": 143,
+          "total_tokens": 442,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxs0Y0W7nHO1CtMGgf80tEnfZFTH",
+        "object": "chat.completion",
+        "created": 1780562256,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はゼミの発表準備を少し進められた。前より資料の流れを考えるのがスムーズになっていて、少し成長できている気がした。友だちと学食で一緒に昼ごはんを食べて、久しぶりにゆっくり話せたのも嬉しかった。あと、帰りに図書館で必要な本を見つけられて、ちゃんと調べ物が進みそうだと思えた。今日は全体的に、ちゃんと前に進めた感じがしてよかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 331,
+          "completion_tokens": 138,
+          "total_tokens": 469,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxsAjdIbZNtb98ortDqWvk60JUWe",
+        "object": "chat.completion",
+        "created": 1780562266,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業と課題でそこそこ忙しかったけど、ゼミで少しだけ発言できたのはよかった。先生に資料の内容を褒められて、前よりは準備したことが伝わった気がする。あとは、昼に友だちと学食で一緒にごはんを食べて、少し気が楽になった。\n\nでも、レポートの締め切りが近いのにまだ終わっていなくて、かなり焦っている。内容も思ったよりまとまらなくて、何回も書き直しているのがしんどい。夜までやってもあまり進まなかったので、今日は疲れた。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 329,
+          "completion_tokens": 164,
+          "total_tokens": 493,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxsKppJuVY4Zmx2C1EaPKyg4qAPY",
+        "object": "chat.completion",
+        "created": 1780562276,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はゼミの準備を少し進められた。前より資料をまとめるのがスムーズになってきて、ちゃんと形になりそうでうれしかった。あと、授業のあとに友だちと少し話せて、なんとなく気持ちが軽くなった。\n\nそれから、帰りに図書館で集中して課題を進められたのもよかった。まだ完璧ではないけど、前よりは自分でペースを作れる感じがして、少し成長してるのかなと思った。今日は全体的に、やることを落ち着いて進められた日だった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 336,
+          "completion_tokens": 157,
+          "total_tokens": 493,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxsVHbrqGfPiFZgJ1lmi79TilOgE",
+        "object": "chat.completion",
+        "created": 1780562287,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はゼミの発表準備を少し進められた。資料の流れを見直して、足りない部分も確認できたので、少し安心した。あと、空き時間に友だちと学食で昼ごはんを食べて、少し雑談できたのもよかった。授業もいつも通り出席できた。\n\nでも、レポートの締め切りが近いのに、まだ内容が思ったよりまとまっていない。参考文献を読む時間も足りなくて、今日はあまり進んだ感じがしなかった。少し焦った。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 329,
+          "completion_tokens": 146,
+          "total_tokens": 475,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxsfjVQs3ZRaNJfPMxB90z4hkoH3",
+        "object": "chat.completion",
+        "created": 1780562297,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が2コマあった。1つ目はなんとか集中できたけど、後半は少し眠くなってしまった。昼に友だちと学食で話せたのはよかった。\n\n一方で、提出期限を勘違いしていて、レポートを少し慌てて直すことになった。電車も遅れて、帰りがいつもより30分くらい遅くなった。家に帰ってからも、明日の準備をしようと思ったのに、スマホを見ているうちに時間が過ぎてしまった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 329,
+          "completion_tokens": 143,
+          "total_tokens": 472,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxsoneNvEfpoF0qHgjA4rsT6OO9s",
+        "object": "chat.completion",
+        "created": 1780562306,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はゼミの準備を少し進められた。資料を見直して、発表の流れを前より整理できた気がする。友だちと昼ごはんを食べながら、課題のことを少し相談できたのもよかった。\n\n一方で、英語の授業で指されて答えがうまく出てこなかった。内容は理解していたつもりだったけど、いざ話すと単語が出てこなくて、少し気まずかった。帰り道もそのことを思い出して、なんとなく落ち込んだ。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 329,
+          "completion_tokens": 146,
+          "total_tokens": 475,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxsy5Vn9Ou40hJKeG9xEwHEoeDrp",
+        "object": "chat.completion",
+        "created": 1780562316,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はゼミの準備を少し進められたのがよかった。資料を見直して、前よりも流れを整理できた気がする。あと、帰りに図書館で欲しかった本を見つけられてちょっと嬉しかった。友だちと学食で少し話せたのも気分転換になった。\n\nただ、英語の課題で思っていたより時間がかかって、結局あまり進まなかったのは少し落ち込んだ。締め切りまでまだあるし、今日は下調べの日だったと思えば…まあ無駄ではないのかもしれないけど、やっぱりうまく言えない感じが残る。次はもう少し早く取りかかりたい。\n\n全体としては、できたこともあった一日だったと思う。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 352,
+          "completion_tokens": 200,
+          "total_tokens": 552,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxt8mcLN1jKHfjVUkIiXyceE467b",
+        "object": "chat.completion",
+        "created": 1780562326,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業で、前よりも先生の話を理解できた気がして少しうれしかった。メモを取りながら聞いたら、あとで見返したときに内容が整理しやすかった。  \n\nそれから、友だちと学食で一緒に食べて、くだらない話で笑えたのもよかった。こういう何気ない時間があると、気持ちが落ち着く。  \n\n夜は少しだけレポートを進められた。全部完璧ではないけど、昨日より一歩進めたのは自分でもえらいと思う。少しずつでも続ければ、ちゃんと形になっていく気がした。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 319,
+          "completion_tokens": 167,
+          "total_tokens": 486,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "adaptive-fading",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxtJH44N5fpQwUQzej1INwj9MLPb",
+        "object": "chat.completion",
+        "created": 1780562337,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はゼミで自分の発表を無事に終えられた。準備した内容を最後まで落ち着いて話せたので、少し自信がついた。先生からも「まとめ方がわかりやすい」と言ってもらえてうれしかった。  \n\nそれから、図書館で課題を少し進められた。最初は時間がかかると思っていたけれど、集中できて予定より早く終わった。やることが少し減ったので、気持ちにも余裕ができた。  \n\n夜は友達と軽くごはんに行って、近況を話せた。くだらない話もできて楽しかったし、いい気分転換になった。今日はいろいろと順調で、充実した一日だった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 320,
+          "completion_tokens": 194,
+          "total_tokens": 514,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxtT3i3yuUhjtN4rFOEcHaLwlSm8",
+        "object": "chat.completion",
+        "created": 1780562347,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はちょっと疲れたけど、いいこともありました。  \n午前の授業で、先生に名前を呼ばれて発言できました。緊張したけど、ちゃんと最後まで言えました。  \n昼休みに友だちと学食で一緒にごはんを食べて、少し話せたのがうれしかったです。  \nそれから、帰りにコンビニで好きなお菓子が買えました。\n\nでも、ゼミの課題が思ったより進まず、締め切りのことを考えると少し不安になりました。  \nあと、駅までの帰り道で雨に降られて、傘を持っていなくて濡れてしまいました。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 284,
+          "completion_tokens": 171,
+          "total_tokens": 455,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxtfiNHV07FmiGaYQVfEXFgavFal",
+        "object": "chat.completion",
+        "created": 1780562359,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が2コマあって少し疲れたけど、ゼミで先生が前回より少し話を聞いてくれたのがうれしかった。あと、昼休みに友だちと学食でごはんを食べて、他愛ない話で笑えたのもよかった。\n\n一方で、レポートの提出期限を勘違いしていて、ちょっと焦った。結局まだ終わっていないところがあって、ちゃんと進められなかった自分に落ち込んだ。まあ、締め切りを知ったことで「早めにやれば間に合う」と思えなくもないけど、正直あまり気持ちは切り替わっていない。\n\nそれでも、今日は話せる人がいたし、少しは前に進めた気もする。明日はレポートをもう少し進めたい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 332,
+          "completion_tokens": 212,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxtoMErPU6mMaeLuk29BjorujbHg",
+        "object": "chat.completion",
+        "created": 1780562368,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し疲れたけど、振り返るといいこともありました。\n\n午前の授業で、先生が前回よりわかりやすく説明してくれて、少しだけ内容が理解できました。あと、昼休みに友だちと一緒に学食でごはんを食べて、くだらない話で笑えたのもよかったです。帰りにコンビニで新しいお菓子を見つけて、ちょっと嬉しかったです。\n\nただ、レポートの締め切りが近いのに全然進まず、かなり焦りました。頭では「こういう日もあるし、遅れても経験になる」と思おうとしたけど、正直まだ無理やりな感じがして、あまり納得できませんでした。あと、帰宅後に眠くなってしまって、やるつもりだった勉強をあまりできなかったのも落ち込みました。\n\n今日はうまくいかないこともあったけど、友だちと話せたのは助かりました。明日はもう少し早めに動きたいです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 337,
+          "completion_tokens": 264,
+          "total_tokens": 601,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxtyhZUoylMGT0XXb19d1rxjmKea",
+        "object": "chat.completion",
+        "created": 1780562378,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業で少し疲れたけど、いくつかありがたいこともあった。\n\n1つ目は、ゼミの先生に提出したレポートで、前よりは見やすくなっていると言ってもらえたこと。かなりうれしかった。まだ内容は足りない気がするけど、少しは進歩できたのかなと思う。\n\n2つ目は、昼に友だちと学食で一緒にごはんを食べられたこと。くだらない話をして笑えたので、気分が少し軽くなった。\n\nでも、今日はよくなかったこともあった。朝の電車が遅れて、大学に着いたときにはもうバタバタしてしまった。それだけでかなり疲れたし、なんとなく一日がうまく始まらなかった感じがする。\n\nあと、レポートの直しでまたミスを見つけて落ち込んだ。ちゃんと確認したつもりだったのに、まだ抜けていて、自分は注意力がないのかなと思った。\n\n無理やりだけど、朝の電車が遅れたのも、少しはその分、空いている時間に課題のことを考える時間ができたと思えばよかったのかもしれない。……でも正直、やっぱり遅刻しそうで焦った気持ちのほうが強かった。\n\n今日は全体的に疲れたけど、少しでも人と話せたことと、レポートを先生に見てもらえたことはよかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 337,
+          "completion_tokens": 371,
+          "total_tokens": 708,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxuAZMPoUkqOWxeiLNMBQgpq6xBx",
+        "object": "chat.completion",
+        "created": 1780562390,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はゼミの発表準備を少し進められた。資料の構成を見直して、必要な文献も2本見つけた。あと、昼に学食で好きなメニューが残っていてうれしかった。授業後に友だちと少し話せたのもよかった。\n\n一方で、英語の課題がまだ終わっていなくて、締め切りが近いのにかなり焦った。思ったより時間がかかってしまって、今日はあまり進んだ感じがしなかった。寝る前にもう少しやるつもり。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 314,
+          "completion_tokens": 147,
+          "total_tokens": 461,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxuNVKL13dosAIVAeCV45aRXKBZ9",
+        "object": "chat.completion",
+        "created": 1780562403,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業のあとに友だちと学食で一緒にごはんを食べました。久しぶりにゆっくり話せて少し楽しかったです。あと、提出していたレポートの確認メールが来ていて、ひとまず受け取ってもらえたのがわかって安心しました。夜は少しだけ図書館で勉強できて、予定していたところまで進められました。\n\n一方で、ゼミの発表準備はあまり進みませんでした。資料を見直していたら、内容がまとまらなくて、途中で疲れてしまいました。今日はそのままそこで終わってしまいました。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 314,
+          "completion_tokens": 161,
+          "total_tokens": 475,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxuXhdHtGivuuHtgsdHYzbhlHoAr",
+        "object": "chat.completion",
+        "created": 1780562413,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が思ったより分かりやすくて、少しうれしかった。先生の説明をノートにきれいにまとめられて、あとで見返したときに「ちゃんと理解できてるかも」と思えた。\n\nそれから、昼に友だちと一緒に学食でごはんを食べた。たわいない話だったけど、笑うことが多くて気分が軽くなった。誰かと一緒に食べるだけで、いつもより楽しく感じた。\n\n夜は少しだけ課題に手をつけた。全部は終わらなかったけど、始められたこと自体がよかったと思う。今日みたいに、できたことを素直に感じながら過ごせるのはいいなと思った。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 305,
+          "completion_tokens": 193,
+          "total_tokens": 498,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxuix7SW5Iq0M4WLKtjMAdyI8N5W",
+        "object": "chat.completion",
+        "created": 1780562424,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業のあとに友だちと学食で一緒にごはんを食べたのがよかった。いつも一人で食べることも多いけど、今日は少し話せて気が楽だった。あと、提出していたレポートが返ってきて、思ったより点数が悪くなかったので少し安心した。\n\n一方で、午前の授業は内容が難しくて、先生の説明についていくのが大変だった。ノートを取るのも追いつかなくて、後で見返してもよくわからないところが多かった。さらに、帰り道で雨が降ってきて、傘を持っていなかったのでかなり濡れてしまった。服も靴も湿ってしまって、家に帰るまで少し気分が重かった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 314,
+          "completion_tokens": 198,
+          "total_tokens": 512,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxusIzpCYVLa12iBXx2F2rPSu0P9",
+        "object": "chat.completion",
+        "created": 1780562434,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業のあとに友だちと学食でお昼を食べて、少しだけゆっくり話せたのがよかった。最近忙しくてあまり会えていなかったので、なんとなく安心した。あと、ゼミの資料を少し進められたのもよかったと思う。全部は終わらなかったけど、昨日よりは前に進んだ気がする。\n\nでも、夜にレポートをやろうとしたら思ったより全然進まず、正直かなり焦った。時間を使ったわりに形にならなくて、やっぱり自分は要領が悪いのかなと思ってしまった。無駄だったとは言いたくないけど、まだまだ中途半端だなとも感じた。\n\n一応、今日は少し進めただけでもゼロではないし、明日やればなんとかなるかもしれない、と考えようとはした。でも、うまく気持ちを切り替えられた感じはあまりしなかった。とりあえず、今日は早めに寝て、明日またやり直したい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 337,
+          "completion_tokens": 264,
+          "total_tokens": 601,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "adaptive-fading",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxv6XmSHNugEWnFEU4cNHh1iESWR",
+        "object": "chat.completion",
+        "created": 1780562448,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し疲れたけど、いくつかうれしいこともありました。\n\nまず、ゼミで先生に名前を呼ばれて発言できたことが、ちょっとだけ自信になりました。内容はまだうまくまとまらなかったけど、前よりは怖くなかったです。あと、昼に友だちと学食で一緒にごはんを食べて、くだらない話で笑えたのもよかったです。帰りにコンビニで好きなお菓子が割引になっていて、ささやかだけど得した気分になりました。\n\n一方で、課題の締め切りが近いのに全然進んでいなくて、かなり焦りました。やろうと思って机には向かったのに、スマホを見てしまって時間が溶けたのも反省です。あと、バイト先からシフト変更の連絡が来て、予定が少しずれてしまって面倒だなと思いました。\n\nでも、課題が進んでいないのは、逆に言えばまだ手をつける余地がはっきりしているということかもしれません。最初の一歩を小さく切れば、少しは進められそうです。\n\n今日は、うまくいかないこともあったけど、人と話せたことやちょっとした得もあって、完全にダメな日ではなかったです。明日はもう少し落ち着いてやりたいです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 315,
+          "completion_tokens": 351,
+          "total_tokens": 666,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxvHZpdbciCWPG3yYrVUO7ZK19zb",
+        "object": "chat.completion",
+        "created": 1780562459,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業で発言する機会があって、先生に名前を呼ばれたときは少し緊張したけど、ちゃんと答えられたのがよかったです。あと、昼に友だちと学食で一緒にごはんを食べて、少しだけ話せたのも普通にうれしかったです。帰りに図書館でレポートの資料を探して、必要な本が見つかったので助かりました。\n\nただ、ゼミの課題の締切を勘違いしていて、思っていたより早く出さないといけないことが分かって焦りました。今日は少し疲れました。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 277,
+          "completion_tokens": 161,
+          "total_tokens": 438,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxvY2s1TKLzdG3HJfV4RUp4QC9hR",
+        "object": "chat.completion",
+        "created": 1780562476,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し忙しい一日だった。  \n授業で配られた課題の量が思っていたより多くて、最初に見たとき少し気が重くなった。  \nそれでも、ゼミの先生に質問できて、わからない部分を一つ確認できたのはよかった。  \n昼休みに友だちと学食で話せたのも、少し気分が落ち着く時間だった。\n\n一方で、午後の講義は集中が続かなくて、内容をうまく追えなかった。  \n帰り道は雨が急に強くなって、傘を持っていたのに少し服が濡れてしまった。  \nそれに、家に帰ってから課題を進めようとしたけれど、思ったより疲れていてあまり手が動かなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 302,
+          "completion_tokens": 199,
+          "total_tokens": 501,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxvhWEiTTA2AKjdiBMFit4ELQEyu",
+        "object": "chat.completion",
+        "created": 1780562485,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生に発表の順番を当てられたけど、準備が少しできていたので前よりは落ち着いて話せました。友だちが「分かりやすかった」と言ってくれて、少し安心しました。あと、帰りに駅前のパン屋で好きなメロンパンが買えたのもよかったです。\n\nただ、ゼミのレポートが思ったより進まず、時間だけかかってしまって少し焦りました。締め切りまでに終わるか不安です。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 307,
+          "completion_tokens": 133,
+          "total_tokens": 440,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxvqk3egEpfAm1VhOVp04LGdhp5F",
+        "object": "chat.completion",
+        "created": 1780562494,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、ゼミの発表準備が少し進んだのがよかった。資料を見直して、前より流れが整理できた気がする。あと、昼に食べた学食の定食が意外とおいしかった。友だちと少しだけ話せたのも、気分転換になった。\n\nただ、朝から寝不足で頭が重かった。課題の締切も近いのに、まだ終わっていないところが多くて焦る。メールも返さないといけないのに、そのまま後回しにしてしまった。\n\nゼミでは、自分の説明があまりうまくまとまらなくて、少し恥ずかしかった。でも、うまくいかなかったのは、逆に今のうちに直す点が分かったということ…なのかもしれない。そう考えようとはしたけれど、正直まだあまり気持ちは軽くならなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 225,
+          "total_tokens": 555,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxw02rk5vZADNpaQ8nM2Mlmj8INC",
+        "object": "chat.completion",
+        "created": 1780562504,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はゼミの発表準備を少し進められた。最初は資料の順番がまとまらなくて、どうしようかなと思ったけど、必要なところを先に整理したら前より見やすくなった気がする。まだ完璧ではないけれど、自分で少し形にできたのはよかった。\n\nそれと、昼に友だちと学食で食べたのも楽しかった。何気ない話だったけど、気分が少し軽くなった。こういう時間があると、その後の勉強もやりやすい気がする。\n\nあと、帰りに図書館で借りた本を少し読めた。思っていたより内容が入ってきて、少しずつでも進めばいいかなと思えた。今日は全体的に、ちゃんと一日を使えた感じがして少し安心した。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 314,
+          "completion_tokens": 215,
+          "total_tokens": 529,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxwCl94voZJBl0jv0dnawtMYLYUU",
+        "object": "chat.completion",
+        "created": 1780562516,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、午前の授業が思ったより早く終わったのが少しうれしかった。空いた時間で学食にも行けて、いつもより落ち着いて昼ごはんを食べられた。あと、友だちがレポートの締め切りを教えてくれて助かった。\n\n一方で、ゼミの発表準備はあまり進まなかった。資料を読み直しても、内容がまだまとまらなくて、自分の理解の浅さを感じた。夕方に図書館へ行ったけれど、席がいっぱいで、少し集中しにくかったのも残念だった。\n\nそれと、帰りに課題の提出ミスに気づいて、かなり焦った。見直したら直せたけれど、最初からちゃんと確認していればよかったと思う。まあ、早めに気づけたのは、まだましだったのかもしれない。でも、やっぱり失敗した感じは残った。\n\n今日は全体的に少し気持ちが重かったけれど、授業が早く終わったことと、昼ごはんをゆっくり食べられたことはよかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 283,
+          "total_tokens": 613,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxwMYo7r1a9oXpgswkYpsRWi9YFl",
+        "object": "chat.completion",
+        "created": 1780562526,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は3つ、少し良かったことがありました。  \n1つ目は、午前の授業で先生の説明が前より聞き取りやすくて、ノートを最後まで取れたことです。  \n2つ目は、昼に友だちと学食で一緒に食べて、少しだけ会話ができたことです。  \n3つ目は、帰りに図書館で借りた本をちゃんと返せたことです。\n\n一方で、ゼミの課題が思ったより進まず、締め切りのことを考えると少し焦りました。今日は時間の使い方がうまくいかなかったです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 307,
+          "completion_tokens": 158,
+          "total_tokens": 465,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxwV8VsIsR6GPNvzUOdUsCSFjCSv",
+        "object": "chat.completion",
+        "created": 1780562535,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、ゼミの発表準備を少し進められたのがよかった。資料を1枚だけでも形にできると、少し安心する。あと、昼休みに友だちと学食で一緒に食べて、くだらない話で笑えたのもありがたかった。そんなに長い時間じゃなかったけれど、気分が少し軽くなった。\n\n一方で、レポートの締め切りが近いのに、まだ手をつけきれていないのが重い。やらなきゃと思うほど、逆に動きが鈍くなる感じがする。今日は時間があったはずなのに、スマホを見たりして無駄にしてしまって、かなり反省した。  \nそれでも、今日少しでも資料を進めたから、まったく何もしていないわけではない、と考えれば……まあ、昨日よりは少しマシ、なのかもしれない。でも、焦りがなくなったわけではない。\n\n夜は少し寒くて、帰り道で気分も下がった。明日はもう少し早めに始めたい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 272,
+          "total_tokens": 602,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxwhPtkH6xE3pcw8GKb2Pa5ed17J",
+        "object": "chat.completion",
+        "created": 1780562547,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、ゼミの発表準備を少し進められたのがよかった。資料を1枚だけでも形にできたので、昨日よりは前に進んだ感じがした。それと、昼に食べた学食の定食が思ったよりおいしくて、少し気分が上がった。あと、帰り道で空がきれいだったのを見て、少し落ち着いた。\n\n一方で、授業中に当てられたときにうまく答えられなくて、かなり焦った。頭の中で整理できていないまま話そうとして、変に間が空いてしまった。まあ、こういう失敗も経験になる…のかもしれないけど、正直まだあまりそうは思えない。\n\n明日はもう少し落ち着いて、早めに準備したい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 205,
+          "total_tokens": 535,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "adaptive-fading",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxwqnWeutquTZk7ICX0OXwpQeHvV",
+        "object": "chat.completion",
+        "created": 1780562556,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業を3コマ受けました。午前のゼミでは、前より少し発言できて、先生にも「整理がよくできている」と言われました。少し安心しました。  \n昼は学食で友人と一緒に食べて、就活の話を少ししました。みんなそれぞれ準備を進めていて、少し焦りましたが、普通に話せてよかったです。  \n夕方は図書館でレポートを進めました。予定していたところまで終わって、少し達成感がありました。  \n\nただ、夜に提出する課題で、参考文献の書き方を間違えているのに気づきました。かなり時間をかけて直すことになって、少し疲れました。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 307,
+          "completion_tokens": 187,
+          "total_tokens": 494,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxx0y7f7fpJOYxbylcKD9kEol5Zy",
+        "object": "chat.completion",
+        "created": 1780562566,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を受けて、レポートの課題を少し進めました。図書館で空いている席が見つかって、静かに作業できたのはよかったです。あと、帰りにコンビニで好きなお菓子を買えました。\n\n一方で、今日は提出期限が近いレポートを思ったより進められなくて、少し焦りました。家に帰ってからも集中が続かず、あまりはかどりませんでした。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 278,
+          "completion_tokens": 120,
+          "total_tokens": 398,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxxBGuVCSKjnjFvrPDNHApr3QF4A",
+        "object": "chat.completion",
+        "created": 1780562577,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生の説明がわかりやすくて少し安心した。資料も前より見やすく感じた。あと、昼休みに友だちと少し話せて普通に楽しかった。\n\n一方で、午後のゼミでは発言のタイミングを逃してしまって、結局あまり話せなかった。準備していた内容も少しまとまらなくて、自分でもうまく言えなかった。帰り道は雨が降っていて、傘を持っていたけど少し面倒だった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 133,
+          "total_tokens": 436,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxxMENhgeQBWEDQvwmSaZ1jo8d77",
+        "object": "chat.completion",
+        "created": 1780562588,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生の説明が少しわかりやすく感じた。あと、昼に友だちと学食で一緒にごはんを食べた。帰りに本屋で気になっていた参考書を少し見られた。\n\n一方で、朝起きるのが遅くなってしまって、1限に少し遅れた。レポートも思ったより進まず、締め切りが近いのに不安になった。夜はスマホを長く見すぎてしまって、勉強する時間が減った。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 140,
+          "total_tokens": 443,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxxX6CuhgCZaiI4SGPZk0XK9H1vF",
+        "object": "chat.completion",
+        "created": 1780562599,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生の説明が少しわかりやすく感じた。前より内容を追いやすかった気がする。あと、昼に学食で好きなメニューが残っていて少しうれしかった。友だちと少しだけ話せたのもよかった。\n\n一方で、ゼミの課題の締め切りが近いのに、まだあまり進んでいない。やらなきゃいけないのに後回しにしてしまっている。あと、夜にレポートを書こうとしたけど、思ったより集中できなくて、すぐにスマホを見てしまった。今日は少し疲れた。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 160,
+          "total_tokens": 463,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxxiAQDmekEtYumBnF1bPd1j1LGY",
+        "object": "chat.completion",
+        "created": 1780562610,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生の説明がわかりやすくて少し安心した。前よりもノートを取りながら内容を追いやすかった。あと、昼休みに友だちと学食で一緒にごはんを食べて、ちょっと気分が落ち着いた。夕方は図書館で勉強して、思ったより集中できた。\n\nでも、ゼミの課題で提出しようとした資料にミスが見つかって、けっこう焦った。直すのに時間がかかって、少し疲れた。今日は全体的に、うまくいったこともあったけど、課題のことで気持ちが落ち着かなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 170,
+          "total_tokens": 473,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxxtNPZhSI7xFa2YGth3jlndVnYe",
+        "object": "chat.completion",
+        "created": 1780562621,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を受けて、内容が前より少しわかるようになってきた気がしてうれしかったです。前は聞くだけで終わっていたところも、今日はメモを取りながら整理できました。  \nそれから、昼に友だちと学食でごはんを食べました。たわいない話でしたが、笑いながら話せて気分が明るくなりました。  \n夜は少しだけ課題を進めました。短い時間でも手をつけられたので、今日もちゃんと前に進めたと思います。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 294,
+          "completion_tokens": 141,
+          "total_tokens": 435,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxy1BC6KB07PrjTmHl1dEwJ02OPQ",
+        "object": "chat.completion",
+        "created": 1780562629,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生に名前を呼ばれて少し発言できたのが印象に残った。いつもよりはっきり話せた気がする。  \nそれから、昼に友だちと学食で一緒にごはんを食べた。久しぶりにちゃんと話せて、少し気が楽になった。  \n帰りにコンビニで好きなお菓子が買えたのも、ちょっと嬉しかった。\n\n一方で、午前の課題は思っていたより進まず、結局やる気が出ないまま時間だけ過ぎた。  \nバイトのシフトの確認でも、思っていた時間と違っていて予定が少し崩れた。  \n夜はスマホを見すぎてしまって、寝るのが遅くなった。明日も早いのに、まただめだった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 209,
+          "total_tokens": 512,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxyDIRSjVfNAcAtR9x2Gt3yCfNiO",
+        "object": "chat.completion",
+        "created": 1780562641,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生に当てられたけど、前よりは落ち着いて答えられた。発表の練習も少しだけ進められて、ノートを見返す時間も取れた。あと、帰りに友だちと学食で少し話せて、気分が少し楽になった。\n\nでも、レポートの締め切りが近いのにあまり進んでいなくて焦った。夜にやろうと思っていたのに、思ったより疲れてしまって集中できなかった。明日はもう少し早めに始めたい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 146,
+          "total_tokens": 449,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxyOdz3sUbhzhKsYkZ97kYMBrmI8",
+        "object": "chat.completion",
+        "created": 1780562652,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業のあとに図書館で少し勉強できた。レポートの参考文献を2つだけ見つけられた。  \n昼は友だちと学食で一緒に食べて、少し話せた。  \n夕方はコンビニで新しいお菓子を買って帰った。\n\nただ、ゼミの課題を進めようと思っていたのに、途中でスマホを見てしまってあまり進まなかった。期限も近いので、少し焦っている。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 128,
+          "total_tokens": 431,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P1",
+      "condition": "fixed-high",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxyZR2fYZZH8SWLCFt5iqzUq8cOO",
+        "object": "chat.completion",
+        "created": 1780562663,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生に名前を呼ばれて発言できたのが少しうれしかったです。いつもより緊張はしたけれど、ちゃんと最後まで答えられました。あと、帰りにコンビニで新しいお菓子を見つけて買えたのもよかったです。\n\n一方で、課題の締め切りを勘違いしていて、少し焦りました。確認が足りなかったので、次からはもっと早めに見直したいです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 125,
+          "total_tokens": 428,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxykKm2xnnc1jk2LUJumCnqTMkp0",
+        "object": "chat.completion",
+        "created": 1780562674,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生が配ったプリントをちゃんと受け取れた。あと、昼休みに友だちと少しだけ話せた。図書館で空いている席を見つけられたのもよかった。  \n\nでも、ゼミの課題が全然進まなかった。何を書けばいいのか分からなくて、途中で止まってしまった。  \nそれと、帰りに電車を一本乗り過ごしてしまって、少し疲れた。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 281,
+          "completion_tokens": 119,
+          "total_tokens": 400,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmxyz6R61Tiq0HJDyu0pEQXc19mef",
+        "object": "chat.completion",
+        "created": 1780562689,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し気分が重かったです。  \n授業では、先生の話についていくのが大変で、ノートを取るのが遅れてしまいました。まわりは普通に進んでいる感じだったので、余計に焦りました。  \nそれと、提出物の確認をしたら、また細かいミスが見つかってしまって少しへこみました。ちゃんと見たつもりだったのに、見落としがありました。\n\nでも、昼に友達と少し話せたのはよかったです。何気ない会話でしたが、少し気が楽になりました。  \nそれから、帰りに好きな飲み物を買えたのも小さな楽しみでした。  \n夜は早めに机に向かうことはできたので、そこはよかったと思います。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 306,
+          "completion_tokens": 197,
+          "total_tokens": 503,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxzAhPlWKgjrehfr6l9hklHjcXBT",
+        "object": "chat.completion",
+        "created": 1780562700,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生に当てられたけど、答えられたのが少しうれしかった。前よりは少しだけ内容を聞けていた気がする。  \nそれから、昼に友だちと学食でごはんを食べた。くだらない話で笑えて、気分が明るくなった。  \n夜は課題を少し進められたので、今日もゼロじゃなくてよかったと思う。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 297,
+          "completion_tokens": 113,
+          "total_tokens": 410,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxzJbByRaDFFBU289c3VzxArjOC7",
+        "object": "chat.completion",
+        "created": 1780562709,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し気分が重かったです。  \nよかったことは、1限にちゃんと出席できたことと、昼ごはんを友だちと食べられたことです。あと、帰りにコンビニで好きなお菓子が買えました。\n\nでも、ゼミの課題が全然進みませんでした。やろうと思っていたのに、途中で手が止まってしまって、結局あまり書けませんでした。  \nそれから、レポートの締め切りが近いのを思い出して、急に焦りました。  \n夜も集中できず、スマホを見てしまって、時間だけが過ぎました。今日はなんだかうまくいかない日でした。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 306,
+          "completion_tokens": 172,
+          "total_tokens": 478,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxzTUQsj5rsxAXtfgrKu2tizOhhA",
+        "object": "chat.completion",
+        "created": 1780562719,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し気分が重かったです。朝、授業に遅れそうになって駅まで急いで走ったので、着いた時にはもう疲れていました。\n\nでも、昼に友だちと学食で一緒にごはんを食べられたのはよかったです。少しだけ話せて、気がまぎれました。それから、レポートが思ったより早く終わって、提出のめどが立ったのも少し安心しました。\n\n一方で、午後のゼミではうまく発言できませんでした。準備していたことも、いざとなると頭がまとまらなくて、ほとんど言えなかったです。帰り道も雨が降っていて、傘を持っていなかったのでかなり濡れました。今日は全体的に疲れました。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 306,
+          "completion_tokens": 197,
+          "total_tokens": 503,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxzfoXezyQhmJn62GBtdZc9K5x0C",
+        "object": "chat.completion",
+        "created": 1780562731,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し気分が重かったです。  \nよかったことは、1限にちゃんと起きて授業に行けたことと、昼に学食で好きな定食を食べられたことです。あと、帰りにコンビニで新しいお菓子を見つけました。\n\nでも、授業中に先生の話についていけなくて、ノートもあまり取れませんでした。課題も思ったより進まず、やろうとしていたところで止まってしまいました。あと、友だちから来た連絡にすぐ返せなくて、そのまま気まずい感じになりました。\n\n今日は全体的にうまくいかなかった感じが強かったです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 306,
+          "completion_tokens": 166,
+          "total_tokens": 472,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-DmxzpNH5NB9J4F5rhdcUfPMdpzIGc",
+        "object": "chat.completion",
+        "created": 1780562741,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、朝ちゃんと起きて授業に行けたのがよかった。少し眠かったけど、欠席しなかっただけでもえらいと思う。  \n\nそれから、ゼミの資料を少しだけ進めることができた。全部はできなかったけど、前よりは手をつけられた気がする。少しずつでも進んでいるのはうれしい。  \n\nあと、帰りに好きな飲み物を買えたのもよかった。ちょっとしたことだけど、気分が上がった。今日はそんな小さな良いことがあって、わりと落ち着いて過ごせた。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 297,
+          "completion_tokens": 158,
+          "total_tokens": 455,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy00Wd6jrGSCpforENQF6mHdgvY0",
+        "object": "chat.completion",
+        "created": 1780562752,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し眠かったけど、午前の授業にはちゃんと出られた。先生の話を聞きながらノートも少し取れたのはよかった。  \n昼に友だちと学食で一緒に食べて、少しだけ話せた。普通の会話だったけど、ひとりで食べるよりは楽だった。  \n帰りにコンビニで好きな飲み物を買えたのも嬉しかった。  \n\nただ、課題のレポートはあまり進まなかった。やろうと思って机に向かったけど、途中で手が止まってしまって、結局ほとんど書けなかった。少し焦った。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 306,
+          "completion_tokens": 167,
+          "total_tokens": 473,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy0B9wPdBQtb8szZaCVBi2F9H0Mn",
+        "object": "chat.completion",
+        "created": 1780562763,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で先生の説明が少しわかりやすく感じました。前よりもメモを取りながら聞けたのがよかったです。\n\nそれから、昼に友だちと学食でごはんを食べました。何気ない話をしながら笑えたので、気持ちが楽になりました。\n\n帰りにコンビニで好きなお菓子を買えたのも嬉しかったです。小さいことですが、少し気分が上がりました。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 297,
+          "completion_tokens": 119,
+          "total_tokens": 416,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P2",
+      "condition": "fixed-high",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy0JG4Pnw3zshrC6p7S9wSibfm2X",
+        "object": "chat.completion",
+        "created": 1780562771,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し気分が重かったです。  \nよかったことは、授業にちゃんと出席できたことと、昼に友だちと少しだけ話せたことです。コンビニで買ったおにぎりも普通においしかったです。\n\nでも、授業の内容はあまり頭に入らなくて、ノートも途中から追いつけませんでした。  \n課題の締め切りも近いのに、まだほとんど進んでいなくて焦りました。  \nそれから、帰りにバスが混んでいて立ちっぱなしだったのが疲れました。\n\n今日は全体的に、うまくいかないことのほうが多かったです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 306,
+          "completion_tokens": 166,
+          "total_tokens": 472,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy0VmC4SrqjDH3sHRL2wvUwYhIYK",
+        "object": "chat.completion",
+        "created": 1780562783,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業で先生に発表内容を少しほめてもらって、うれしかった。前よりも話すときに緊張しすぎず、最後まで言い切れたのがよかった。  \n\nそれから、ゼミの友だちと帰りに少し話せて、勉強のことや最近見ている動画の話で盛り上がった。気軽に話せる人がいるのはありがたい。  \n\n夜は少しだけレポートを進められた。まとまった時間ではなかったけど、少しでも手をつけられたので、明日につながりそうだと思った。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 290,
+          "completion_tokens": 156,
+          "total_tokens": 446,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy0dpgaL8aRctEU1EVZUZvYcsPPf",
+        "object": "chat.completion",
+        "created": 1780562791,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を2コマ受けた。ゼミでは前より少し発言できて、先生に「論点は合っている」と言われたのがうれしかった。昼に友だちと学食で一緒に食べて、久しぶりにゆっくり話せたのもよかった。帰りに図書館で課題の資料を少し探せた。\n\n一方で、英語の小テストは思ったより点が取れなくて、単語をかなり忘れていた。レポートも締切までに終わらなくて、今日は結局ほとんど進まなかった。夜になって疲れが強くなって、集中力が続かなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 324,
+          "completion_tokens": 171,
+          "total_tokens": 495,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy0q11tgF6Jv2Ci3654Ey5vk1pl1",
+        "object": "chat.completion",
+        "created": 1780562804,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を2コマ受けて、そのあと図書館で課題を少し進めた。空いている時間に友達と昼ごはんを食べられたのもよかった。ゼミの資料を少し整理できて、やることが見えたのはありがたかった。\n\nただ、英語の小テストが思ったよりできなくて少し落ち込んだ。単語があまり覚えられていなくて、時間も足りなかった。帰り道もそのことを考えてしまった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 324,
+          "completion_tokens": 130,
+          "total_tokens": 454,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy11I7feHUzMG9CzxWFjWaVxUfy1",
+        "object": "chat.completion",
+        "created": 1780562815,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を2コマ受けて、そのあと図書館で課題を少し進めた。レポートの資料を探していたら、必要な本がちょうど見つかってよかった。夕方に友だちと学食で一緒にごはんを食べて、少し話せたのもよかった。\n\n一方で、朝起きるのが遅くて1限に少し遅刻してしまった。家を出る前にバタバタして、ちゃんと準備できなかった。あと、課題の締め切りが近いのに、思ったより進まず焦った。やることは分かっているのに集中しきれず、時間だけ過ぎてしまった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 324,
+          "completion_tokens": 177,
+          "total_tokens": 501,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy1DbbXnzdsXvFemmyLDZjMyX5cF",
+        "object": "chat.completion",
+        "created": 1780562827,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日はゼミの発表準備を少し進められた。資料の構成を整理できて、前よりは見やすくなったと思う。あと、昼に友だちと学食でごはんを食べて、少し気分転換できたのもよかった。帰りに図書館で必要な本も一冊見つけられた。\n\nただ、英語の課題で思っていたより点が取れなくて落ち込んだ。単語の意味は分かるのに、問題になると迷ってしまう。まあ、今回はたまたま調子が悪かっただけで、次はもう少しできるはず…たぶん。ちゃんと復習すれば少しはましになると思いたい。\n\n全体としては、やることは多かったけど、少しずつ進んだ一日だった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 347,
+          "completion_tokens": 205,
+          "total_tokens": 552,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy1Od2v895ViKHHLG7ngapTxR660",
+        "object": "chat.completion",
+        "created": 1780562838,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少しだけ達成感のある一日だった。  \n午前中の講義では、前よりも内容がすっと頭に入ってきて、先生の話についていけた気がする。授業中にメモを整理できたのもよかった。  \n\nそれから、ゼミの準備で少し早めに作業を進められた。いつもより落ち着いて取り組めて、必要な資料も見つけられたので安心した。  \n帰りに好きなパンを買えたのも小さな楽しみだった。  \n\n全体的に、今日は自分のペースで過ごせて、少しずつ積み重ねられている感じがしてうれしかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 315,
+          "completion_tokens": 172,
+          "total_tokens": 487,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy1WvejpNzVEIbk1YX0yfnGxxpek",
+        "object": "chat.completion",
+        "created": 1780562846,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は午前にゼミの発表準備を少し進められたのがよかった。資料の流れを整理したら、前より見やすくなって少し安心した。あと、授業帰りに友達と学食で一緒にご飯を食べて、くだらない話で笑えたのも嬉しかった。\n\n一方で、課題のレポートが思ったより進まず、途中で頭が止まってしまった。やる気がないわけじゃないのに、時間だけ過ぎていく感じがして少し落ち込んだ。まあ、こういう日があるのも準備をしている途中だからかもしれないし、完全に無駄ではないのかな…とは思うけど、まだちょっと気持ちは重い。\n\nでも、今日は全然ダメだったわけではなくて、少しでも発表準備を進められたのはちゃんと前進だと思いたい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 347,
+          "completion_tokens": 229,
+          "total_tokens": 576,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy1lEqzaoVVujRcce8oQBqgp8Adx",
+        "object": "chat.completion",
+        "created": 1780562861,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少しだけ達成感のある一日だった。  \n午前の授業で、前よりも先生の説明がすっと入ってきて、内容をメモしながら整理できた。理解できる部分が増えてきたのがうれしい。  \n\n昼休みは友だちと学食でごはんを食べた。何気ない会話だったけれど、笑いながら話せて気分が軽くなった。こういう時間があると、午後も頑張ろうと思える。  \n\n夜は少しだけ予習を進めた。前より集中できていて、前向きに取り組めたのがよかった。少しずつでも積み重ねていけている感じがして、今日もちゃんと進めたと思う。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 315,
+          "completion_tokens": 187,
+          "total_tokens": 502,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy1tWkAEqBOhH5hHfIkN7LlOFtTN",
+        "object": "chat.completion",
+        "created": 1780562869,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を2コマ受けて、そのあと図書館で課題を少し進めた。ゼミの資料も確認できて、やることを整理できたのはよかった。昼は友だちと学食で一緒に食べて、最近の授業の話を少しした。\n\n一方で、レポートの締め切りが近いのに思ったより進んでいなくて焦った。参考文献を探していたら必要な資料が見つからず、時間だけかかってしまった。夕方になってから疲れて集中力も落ちて、結局予定していたところまで終わらなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 324,
+          "completion_tokens": 157,
+          "total_tokens": 481,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P3",
+      "condition": "fixed-high",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy23gMj06025KsHv6mWH8KfLIAcK",
+        "object": "chat.completion",
+        "created": 1780562879,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業を2コマ受けて、そのあと図書館で課題を少し進めた。ゼミの資料も確認できて、やることを整理できたのはよかった。昼に友だちと学食で一緒にごはんを食べて、少し話せたのも気分転換になった。\n\n一方で、レポートの提出期限を勘違いしていて、準備がまだ足りないまま気づいてしまった。かなり焦ったし、ちゃんと確認していなかったのが悪かった。夕方はそのことで少し落ち着かなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 324,
+          "completion_tokens": 147,
+          "total_tokens": 471,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy2KAr30xAgcbTBYfVmvTDh9lDSb",
+        "object": "chat.completion",
+        "created": 1780562896,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少しだけ気持ちに余裕のある一日だった。\n\n午前中の授業では、先生の説明がいつもより分かりやすく感じて、ノートを取るのが楽しかった。難しそうだと思っていた内容も、友だちのメモを見せてもらいながら整理できて、少し安心した。\n\nお昼は学食で友だちと一緒に食べた。何気ない会話だったけれど、最近のことを笑いながら話せてうれしかった。こういう時間があると、午後も頑張ろうと思える。\n\n帰りにコンビニで好きなお菓子を買えたのも小さな楽しみだった。家に帰ってから食べるのが楽しみで、ちょっと気分が上がった。\n\n今日のよかったことを振り返ると、授業が少し理解できたこと、友だちと話せたこと、好きなものを買えたことの3つが印象に残っている。こういう小さな嬉しさをちゃんと覚えておきたい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 275,
+          "completion_tokens": 263,
+          "total_tokens": 538,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy2W9oAWbMxjowX3wepAgrzvROHb",
+        "object": "chat.completion",
+        "created": 1780562908,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業のあとに友だちと学食でお昼を食べました。久しぶりにゆっくり話せて、気分が明るくなりました。  \n\nそれから、レポートを少し進めることができました。最初は手が止まりそうだったけれど、始めてみたら思ったより書けて、少し安心しました。  \n\n夜は好きな音楽を聴きながら明日の準備をしました。小さなことだけど、落ち着いた気持ちで一日を終えられてよかったです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 300,
+          "completion_tokens": 141,
+          "total_tokens": 441,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy2gjDIW4KA55dWnwToZpjuTbNFa",
+        "object": "chat.completion",
+        "created": 1780562918,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業で先生に名前を呼ばれて、少しだけ発言できた。いつもより緊張したけど、最後まで言えたのはよかった。昼休みに友だちと学食でごはんを食べて、少し気が楽になった。帰りにコンビニで好きなお菓子も買えた。\n\n一方で、レポートがまだ全然進んでいなくて焦った。締め切りが近いのに、やる気が出なくて時間だけ過ぎてしまった。あと、バイト先からシフト変更の連絡が来て、予定を立て直さないといけなくなって面倒だった。今日は全体的に少し疲れた。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 309,
+          "completion_tokens": 175,
+          "total_tokens": 484,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy2r7aObnB4eBG1Z6kn7Ap9fQCfp",
+        "object": "chat.completion",
+        "created": 1780562929,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業のあとに友だちと学食でお昼を食べました。久しぶりにゆっくり話せて、気分が明るくなりました。  \n\nそれから、レポートを少し進めることができました。最初は面倒だなと思っていたけど、始めてみたら思ったより書けて、少し安心しました。  \n\n夜は好きな音楽を聴きながら明日の準備をしました。落ち着いた時間を過ごせて、今日は全体的にいい一日だったと思います。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 300,
+          "completion_tokens": 138,
+          "total_tokens": 438,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy312Qq2TWssmuID73lJed2y5sQZ",
+        "object": "chat.completion",
+        "created": 1780562939,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が3コマあって、少し疲れたけど、空き時間に友だちと学食でごはんを食べたのは楽しかった。午後は図書館でレポートの資料を探して、必要そうな本を見つけられたのがよかった。\n\nでも、朝の電車が遅れていて、1限に少し遅れた。急いで行ったけど、最初の説明を聞き逃してしまった。  \nそれから、レポートを書こうとしたら、参考にしたかった本が貸出中で見つからなかった。  \n帰りに雨が強くなって、傘を持っていなかったのでかなり濡れてしまった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 309,
+          "completion_tokens": 175,
+          "total_tokens": 484,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy3DqDDW92NOK5zgLEEAZXmy7Il7",
+        "object": "chat.completion",
+        "created": 1780562951,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業で前より少しだけ発言できたのがうれしかった。緊張したけど、先生がちゃんと聞いてくれて、最後まで言い切れたのがよかった。  \n\nそれと、昼休みに友だちと学食でごはんを食べながら、くだらない話で笑えたのも楽しかった。こういう何気ない時間って、あとから思うとすごく大事だなと思った。  \n\n帰りに図書館で少し勉強もできて、今日はちゃんとやれた気がする。少しずつでも前に進めている感じがして、ありがたかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 299,
+          "completion_tokens": 158,
+          "total_tokens": 457,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy3OdzOnUnzglbg2O1Cw45FWulEa",
+        "object": "chat.completion",
+        "created": 1780562962,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は全体的に落ち着いていて、少し気持ちが軽かったです。\n\nまず、授業で前より内容がわかりやすく感じて、先生の話についていけたのがうれしかったです。前回より少し理解できるところが増えていて、自分でも成長している気がしました。\n\nそれから、昼に友だちと学食で一緒にごはんを食べました。たわいない話をしながら笑えて、いい気分転換になりました。こういう時間があると、学校に来てよかったなと思います。\n\n最後に、帰る前に図書館で少しだけ勉強できました。集中して取り組めたので、今日やることをひとつ終えられて安心しました。少しずつでも続けていきたいです。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 300,
+          "completion_tokens": 197,
+          "total_tokens": 497,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy3Xd0rrQatI163aTjL4l8mWfmWw",
+        "object": "chat.completion",
+        "created": 1780562971,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は全体的に落ち着いていて、気分よく過ごせた。  \n午前の授業では先生の説明がわかりやすくて、前より少し内容についていけた気がする。メモを取りながら聞けたのもよかった。  \n\n昼には友だちと一緒に学食でごはんを食べた。たわいない話をしながら笑えて、いい気分転換になった。  \nそれから、帰宅してから少しだけ課題を進められた。短い時間でも手をつけられたので、明日も続けやすそうだと思った。  \n\n今日は、ちゃんと動けたことがいくつかあってうれしかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 300,
+          "completion_tokens": 176,
+          "total_tokens": 476,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy3hn41A6uU3REzHCzcZon6hDdqI",
+        "object": "chat.completion",
+        "created": 1780562981,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業で先生に当てられて、うまく答えられなかった。少し恥ずかしかったけど、最後まで授業は受けられた。\n\nそれでも、昼休みに友だちと学食で一緒にごはんを食べられたのはよかった。くだらない話で少し笑えて、気が楽になった。\n\nあと、帰りに図書館で課題の資料を少し探せた。全部は進まなかったけど、必要そうな本は見つかった。\n\n夜はレポートをやろうとしたけど、思ったより集中できなくてあまり進まなかった。スマホを見てしまって、時間を使ってしまった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 309,
+          "completion_tokens": 173,
+          "total_tokens": 482,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P4",
+      "condition": "fixed-high",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy3rhOxU9Jyry154XAURvJV8gAEl",
+        "object": "chat.completion",
+        "created": 1780562991,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業で、前に提出したレポートが返ってきました。思ったより点数がよくて、少し安心しました。先生からコメントも書いてあって、直したほうがいい部分がわかりました。  \n\n昼は友だちと学食で一緒に食べました。空いていて座りやすくて、久しぶりにゆっくり話せました。  \n\n一方で、夕方のゼミの発表では、うまく答えられない質問があって少し落ち込みました。準備が足りなかったと感じました。  \n\n今日は全体的には、落ち着いて過ごせた日でした。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 309,
+          "completion_tokens": 160,
+          "total_tokens": 469,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 1,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy46FYbbCwDeUa6F7B8Lq3IZNiBR",
+        "object": "chat.completion",
+        "created": 1780563006,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業が2コマあって、1つは普通に出席できた。ゼミの連絡も確認して、提出期限をメモできたのはよかった。昼に学食で食べた定食もいつもより少しおいしく感じた。  \n\nただ、午後のレポート課題は思ったより進まず、時間をかなり使ってしまった。あと、帰りの電車が混んでいて疲れた。家に着いたときは少しぐったりした。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 277,
+          "completion_tokens": 122,
+          "total_tokens": 399,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 2,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy4Gpq0bsroO8gnpZN7BB3zzuWzU",
+        "object": "chat.completion",
+        "created": 1780563016,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し忙しかったけれど、授業のあとに図書館で勉強できたのはよかった。  \n友だちと学食で一緒にごはんを食べて、少し気分が軽くなった。  \nそれから、レポートの参考文献を一つ見つけられたのも助かった。\n\nただ、ゼミの課題は思ったより進まず、少し焦った。家に帰ってからも、うまく集中できなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 302,
+          "completion_tokens": 120,
+          "total_tokens": 422,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 3,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy4Ru62440JhjjuRx5yDqVcochZ2",
+        "object": "chat.completion",
+        "created": 1780563027,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し忙しかったけれど、授業のあとに図書館で勉強できたのはよかった。レポートの資料も少し進められて、締め切りに向けてやることが見えてきた。あと、昼に友だちと学食で一緒に食べて、少し気分が楽になった。\n\n一方で、英語の授業で当てられたときにうまく答えられなくて、かなり焦った。準備が足りなかったと思う。帰りに雨が降っていて、傘を持っていなかったので、駅まで歩く間に服が少し濡れてしまった。ちょっと疲れた一日だった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 302,
+          "completion_tokens": 177,
+          "total_tokens": 479,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 4,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy4cQd3K0VqTZtVFUQxK03F5sbhy",
+        "object": "chat.completion",
+        "created": 1780563038,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し忙しかったけれど、授業のあとに図書館で勉強できたのはよかった。久しぶりに空いている席が見つかって、落ち着いて課題に取りかかれた。あと、友だちが帰りに声をかけてくれて、少し話せたのも嬉しかった。\n\n一方で、朝は寝坊してしまって1限に少し遅れた。急いで準備したので、家を出るときから気持ちが落ち着かなかった。さらに、提出期限が近いレポートの内容がまだあまりまとまっていなくて、不安になった。夜にコンビニで買おうと思っていたものも売り切れていて、少しがっかりした。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 302,
+          "completion_tokens": 189,
+          "total_tokens": 491,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 5,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy4ndrsldloZy7t86A6NRJtfqF1D",
+        "object": "chat.completion",
+        "created": 1780563049,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は授業で先生の説明がいつもより少しわかりやすく感じて、ノートをきれいにまとめられたのがよかった。あと、空き時間に友だちと少し話せて、前より気楽に会話できた気がする。帰りにコンビニで新しいお菓子を買ってみたんだけど、思ったよりおいしくてちょっと得した気分になった。まだうまく言えないけど、こういう小さいよかったことをちゃんと覚えておくのは大事だと思う。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 309,
+          "completion_tokens": 141,
+          "total_tokens": 450,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 6,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy4wMmJdQ91NYBUkHm6s8qt9MDZN",
+        "object": "chat.completion",
+        "created": 1780563058,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し忙しかったけれど、授業の合間に友達と学食で昼ごはんを食べられたのはよかった。久しぶりにゆっくり話せて、気分が少し落ち着いた。\n\n午後のゼミでは、発表の順番が思ったより早く回ってきて、準備が足りないまま話すことになってしまった。うまく言えないところが多くて、少し恥ずかしかった。  \nそれと、帰りに雨が降ってきて、傘を持っていなかったので駅まで濡れて歩いた。靴も服も少し濡れてしまって、今日は疲れた。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 302,
+          "completion_tokens": 171,
+          "total_tokens": 473,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 7,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy59UeZZkn8nbTQvpEwBM5AaWOeG",
+        "object": "chat.completion",
+        "created": 1780563071,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、ゼミの発表準備を少し進められたのがよかった。資料を2枚だけでも形にできたので、昨日よりは前に進んだ感じがした。それと、帰りに友だちと少しだけ話せて、気分が少し軽くなった。  \n\n一方で、レポートの締め切りが近いのに、まだ全然まとまっていなくてかなり焦った。考え始めると余計に手が止まってしまって、結局あまり進められなかった。あと、電車が遅れていて、予定より帰宅が遅くなったのも地味に疲れた。  \n\nレポートが進まなかったのは、内容をちゃんと考えようとしていたからだと思えば、少しは意味があるのかもしれない。でも、やっぱり単純に遅いし、今のままだとまずいので、あまりうまく切り替えられなかった。  \n\n明日はもう少し早めに取りかかりたい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 325,
+          "completion_tokens": 253,
+          "total_tokens": 578,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 8,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy5LswSmRj3rik2YGVZjOVDXR4Pc",
+        "object": "chat.completion",
+        "created": 1780563083,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は、授業のあとに図書館で少し集中してレポートを進められた。思ったより早く資料が見つかって、ちょっと安心した。あと、帰りにコンビニで新しく出ていたお菓子を買ってみたら、意外とおいしかった。\n\n一方で、ゼミの発表準備がまだ全然足りていなくて、やっぱり焦った。時間はあったはずなのに、うまく進められなかったのが少し悔しい。あと、夕方に雨が降ってきて、傘を持っていなかったので帰り道が面倒だった。\n\nでも、発表準備が進んでいないのは、逆に言えば今のうちに気づけてよかったのかもしれない。直前になってから困るより、今日の段階で足りないところが分かったのは少し助かった。ちゃんと明日から少しずつ埋めていけばいいと思う。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 245,
+          "total_tokens": 548,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 9,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy5gQULs3cetopPoqpx7JG18aKmi",
+        "object": "chat.completion",
+        "created": 1780563104,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は少し忙しかったけれど、授業のあとに図書館でレポートを進められたのはよかった。集中できる時間が少しあって、思ったより早く1章分はまとめられた。  \nそれから、昼に友だちと学食で一緒にごはんを食べて、少し話せたのも普通にうれしかった。最近あまりゆっくり会えていなかったので、短い時間でも会話できたのはよかった。  \n\nただ、ゼミの準備はまだ終わらなくて、提出用のメモも中途半端なままだった。やることが多くて、結局夕方まで気持ちが落ち着かなかった。  \nそれに、帰り道で雨に降られてしまって、傘を持っていたのにかなり濡れた。靴も少しびしょびしょになって、家に着くまで気分があまりよくなかった。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 302,
+          "completion_tokens": 239,
+          "total_tokens": 541,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    },
+    {
+      "persona_id": "P5",
+      "condition": "fixed-high",
+      "session": 10,
+      "type": "user_entry_generation",
+      "raw_response": {
+        "id": "chatcmpl-Dmy5rNiH9jbH6ZQLQ32LcRT7zp97P",
+        "object": "chat.completion",
+        "created": 1780563115,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "今日は比較的落ち着いて過ごせた一日だった。朝、少し早めに起きられて、授業に余裕を持って向かえたのがよかった。慌てずに準備できると、それだけで気持ちが少し軽くなると感じた。\n\n昼には友だちと一緒に学食で昼ごはんを食べた。何気ない会話だったけれど、最近あったことを共有できて楽しかった。笑いながら話せる時間があるのはありがたいなと思った。\n\n夕方は図書館で課題を少し進められた。集中して取り組めた時間があったので、今日のうちに一区切りつけられて安心した。少しずつでも進めると、ちゃんと前に進んでいる感じがしてうれしい。",
+              "refusal": null,
+              "annotations": []
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 293,
+          "completion_tokens": 204,
+          "total_tokens": 497,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": null
+      }
+    }
+  ]
+}
