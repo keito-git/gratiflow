@@ -1,6 +1,5 @@
-# GratiFlow
+# GratiFlow: A Scaffolding-Fading Multi-Agent LLM Framework\\for Positive Reframing Skill Internalization
 
-A scaffolding-fading multi-agent LLM framework for positive reframing skill internalization through gratitude journaling.
 
 ## Overview
 
@@ -107,8 +106,7 @@ If you use this code or data, please cite:
 @article{inoshita2026gratiflow,
   title={GratiFlow: A Scaffolding-Fading Multi-Agent LLM Framework for Positive Reframing Skill Internalization},
   author={Inoshita, Keito},
-  journal={Applied Intelligence},
-  year={2026},
-  note={Under review}
+  journal={arXiv},
+  year={2026}
 }
 ```
